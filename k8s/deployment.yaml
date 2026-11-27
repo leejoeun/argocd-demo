@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: leejoeun/argocd-demo:v2
+          image: leejoeun/argocd-demo:v4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
